@@ -46,5 +46,5 @@ for(var i = 0; i<questionSet.length; i++){
   game(questionSet[i].question, questionSet[i].answer);
 }
 
-console.log("Your final score is " + score)
+console.log("Your final score is : " + score)
 
