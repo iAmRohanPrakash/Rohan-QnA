@@ -11,28 +11,34 @@ var game = (question,answer) => {
     console.log("Sorry, that was wrong");
   }
   console.log("Your current score is : " + score);
-  console.log("**********************************")
+  console.log(`
+  **********************************`)
 }
 
 var questionSet = [{
-  question : "What's your name ",
-  answer : "Rohan"
-},
-{
-  question : "What's your age ",
-  answer : "21"
-},
-{
-  question : "What's your favourite food ",
-  answer : "Butter chicken"
-},
-{
-  question : "Where do you live ",
+  question : `
+  Rohan's hometown is ______ `,
   answer : "Kanpur"
 },
 {
-  question : "What's your profile ",
+  question : `
+  Rohan is _______ years old `,
+  answer : "21"
+},
+{
+  question : `
+  Rohan's favourite dish is _________`,
+  answer : "Butter Chicken"
+},
+{
+  question : `
+  Rohan is a _____________ by profession`,
   answer : "Developer"
+},
+{
+  question :`
+  Rohan's pet name is ______`,
+  answer : "Leo"
 }];
 
 for(var i = 0; i<questionSet.length; i++){
