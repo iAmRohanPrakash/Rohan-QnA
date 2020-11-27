@@ -1,1 +1,0 @@
-This is a Mini QnA Game
